@@ -5,3 +5,9 @@ h1 {
 p {
     color:blue;
 }
+
+.special {
+    color :orange;
+    font-style: italic; 
+
+}
