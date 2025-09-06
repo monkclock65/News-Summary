@@ -8,6 +8,29 @@ p {
 
 .special {
     color :orange;
-    font-style: italic; 
+    font-style: italic;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: auto; 
+    grid-template-areas: 
+        "header header header"
+        "main main main"
+        "footer footer footer";
+}
 
+.item1 {
+    grid-area: header;
+    background-color: green
+}
+
+.item2 {
+    grid-area: main; 
+    background-color: blue
+}
+
+.item3 {
+    grid-area: footer; 
+    background-color: red
 }
