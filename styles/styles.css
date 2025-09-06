@@ -35,9 +35,11 @@ body {
 
 .item1 {
     grid-area: header;
-    background-color: green;
-    padding:1rem;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding:2rem;
+    flex-direction:row;
+    flex-wrap:wrap;
 }
 
 .item2 {
@@ -52,4 +54,15 @@ body {
     background-color: red;
     padding:1rem;
     text-align: center;
+}
+
+.article-card {
+    background-color: lightgray;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 2rem;
+    margin: auto; 
+    font-weight: bold;
+    font-size: 2em;
+    color: red;
 }
