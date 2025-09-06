@@ -35,18 +35,21 @@ body {
 
 .item1 {
     grid-area: header;
-    display: flex;
+    display:flex;
     justify-content: center;
-    padding:2rem;
-    flex-direction:row;
-    flex-wrap:wrap;
+    background-color: green;
+
 }
 
 .item2 {
     grid-area: main; 
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
     background-color: blue;
     padding:1rem;
-    text-align: center;
+    
 }
 
 .item3 {
