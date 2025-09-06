@@ -30,6 +30,7 @@ body {
         "header header header"
         "main main main"
         "footer footer footer";
+    height: 100vh;
 }
 
 .item1 {
