@@ -1,0 +1,1 @@
+This is a website that summarizes news using ai and provides real-time updates using websockets. 
